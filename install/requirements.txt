@@ -1,0 +1,6 @@
+pip
+setuptools
+black
+pytest
+mypy
+isort

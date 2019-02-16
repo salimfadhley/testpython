@@ -1,5 +1,8 @@
 # Base Image, Python Interpreter
 FROM python:3.7.2-stretch AS testpython
-RUN python -m pip install --upgrade pip setuptools black pytest mypy
+COPY install /tmp/install
+RUN python -m pip install --upgrade -r /tmp/install/requirements.txt
 RUN apt-get install git
+RUN rm -rf /tmp/install
+
 
