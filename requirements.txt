@@ -1,5 +1,5 @@
 pip==19.2.1
-setuptools
+setuptools==41.0.1
 black
 pytest
 mypy
