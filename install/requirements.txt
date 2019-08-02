@@ -2,5 +2,5 @@ pip==19.2.1
 setuptools==41.0.1
 black==19.3b0
 pytest==5.0.1
-mypy
+mypy==0.720
 isort
